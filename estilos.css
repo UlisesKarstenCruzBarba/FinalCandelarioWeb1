@@ -1,0 +1,241 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header{
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #3498db;
+}
+
+header h1{
+    font-family: "Papyrus", fantasy, serif;
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+header p{
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    margin: 6px 0 0 0;
+    font-size: 15px;
+    color: #ecf0f1;
+}
+
+.contenedor-principal{
+    max-width: 950px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #bbbbbb;
+}
+
+section{
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+h2{
+    font-family: "Papyrus", fantasy, serif;
+    color: #1f3a52;
+    background-color: #eef4f8;
+    padding: 8px 12px;
+    border-left: 5px solid #2980b9;
+}
+
+h3{
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    color: #2c3e50;
+    margin-top: 15px;
+}
+
+.bloque-info{
+    background-color: #f9f9f9;
+    border: 1px solid #d0d0d0;
+    padding: 14px;
+    margin-bottom: 15px;
+}
+
+.indice-pagina{
+    background-color: #f2f6fa;
+    border: 1px solid #b8cce4;
+    padding: 12px 18px;
+    margin-bottom: 20px;
+}
+
+ul, ol{
+    margin-top: 6px;
+    margin-bottom: 12px;
+    padding-left: 25px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.grupo-figuras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 12px 0;
+}
+
+figure{
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 8px 0;
+    text-align: center;
+    width: 270px;
+}
+
+figure.portada-figura{
+    width: auto;
+    max-width: 720px;
+    margin: 15px auto;
+}
+
+figure img{
+    max-width: 100%;
+    height: 170px;
+    object-fit: contain;
+    background-color: #f4f4f4;
+    padding: 8px;
+}
+
+figure.portada-figura img{
+    height: auto;
+    max-height: 360px;
+    padding: 0;
+}
+
+figcaption{
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-size: 13px;
+    color: #333333;
+    margin-top: 8px;
+    text-align: left;
+}
+
+a{
+    color: #1a5276;
+}
+
+a:hover{
+    color: #2980b9;
+}
+
+.enlace-galeria{
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+th, td{
+    border: 1px solid #888888;
+    padding: 9px;
+    text-align: left;
+}
+
+th{
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    max-width: 420px;
+    padding: 6px;
+    margin-top: 4px;
+    border: 1px solid #999999;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    margin-top: 10px;
+    padding: 7px 14px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    border: 1px solid #1a252f;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    background-color: #34495e;
+}
+
+.mensaje-js{
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-weight: bold;
+    color: #1e8449;
+    margin-top: 8px;
+}
+
+.boceto-caja{
+    border: 2px solid #444444;
+    padding: 10px;
+    background-color: #fafafa;
+    max-width: 620px;
+    margin: 12px auto;
+}
+
+.boceto-parte{
+    border: 1px dashed #666666;
+    background-color: #eeeeee;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer{
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer a{
+    color: #aed6f1;
+}
+
+@media (max-width: 600px){
+    .contenedor-principal{
+        margin: 10px;
+        padding: 12px;
+    }
+    figure{
+        width: 100%;
+    }
+}
